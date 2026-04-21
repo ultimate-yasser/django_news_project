@@ -10,7 +10,7 @@
             <a href="">{{ article.title }}</a>
         </span> &middot;
         <span class="text-muted">
-            by {{ article.author }} | {{ article.date }}
+            by {{ article.author }} | {{ article.date|timesince }}
         </span>
     </div>
     <div class="card-body">
